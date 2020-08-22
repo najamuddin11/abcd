@@ -1,0 +1,40 @@
+body
+{
+    height: 100%;
+}
+.bg {
+    background-image: url("../../assets/231768.jpg");
+    height: 45.1em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.opacityCover
+{
+    height: 45.1em;
+    background: linear-gradient(to right,rgba(43, 187, 173,0.7) 0%, rgba(102, 153, 255,0.7) 100%);
+
+}
+.formContainer
+{
+    height: 40em !important;
+    background: white ;
+    
+    width: 55em;  
+    margin: 0px auto;
+    position: relative;
+    top: 50%;
+     
+    padding: 40px 80px;
+
+    
+    
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+   
+
+
+    border-radius: 10px;
+
+}

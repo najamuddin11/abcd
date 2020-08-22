@@ -1,0 +1,20 @@
+.mycontainer{
+    
+    .btnIsActive{
+        font-size: 20px !important;
+        border-top-left-radius: 40px !important;
+        border-top-right-radius: 40px !important;
+        box-shadow: 1px -2px 2px 0px !important;
+    }
+    .btn-opaque{
+        
+        box-shadow: 0px 0.5px 0px 0px;
+        
+
+        &:hover{
+            color:black;
+            box-shadow: 0px 0.5px 0px 0px;
+            font-size: 18px;
+        }
+    }
+}

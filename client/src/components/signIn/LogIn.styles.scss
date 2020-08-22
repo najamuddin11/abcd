@@ -1,0 +1,33 @@
+body
+{
+    height: 100%;
+}
+.login-bg {
+    background-image: url("../../assets/registration-background-2.jpg");
+    height: 721px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.log-in-opacityCover
+{
+    height: 721px;
+    background: linear-gradient(to right,rgba(43, 187, 173,0.7) 0%, rgba(102, 153, 255,0.7) 100%);
+
+}
+.log-in-formContainer
+{
+    height: 75%;
+    background: white ;
+    margin: auto 36%;
+    position: relative;
+    top: 50%;
+    padding: 50px;
+    
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+    border-radius: 10px;
+
+}
